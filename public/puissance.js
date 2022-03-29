@@ -204,12 +204,10 @@ document.getElementById ('positionnement_rejouer').appendChild(newGame);
 
 //Si un des joueurs veut recommencer la partie
 newGame.addEventListener('click',function(eventbis){
+
 p4.reset();
 p4.render();
 eventbis.stopPropagation();
-
-    
-
 
 })
 
