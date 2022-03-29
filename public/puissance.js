@@ -197,8 +197,8 @@ let p4 = new Puissance4('#game');
 
 var newGame=document.createElement("button");                                               
 game.style.display="none";
-document.getElementById ('main').appendChild(newGame);
-newGame.innerText="Rejouer!"
+newGame.innerHTML ="<button type='submit' class='button' >Rejouer!</button>";
+document.getElementById ('positionnement_rejouer').appendChild(newGame);
 
 
 
