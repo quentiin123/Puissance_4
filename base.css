@@ -1,0 +1,93 @@
+#game table {
+    border: 3px blue outset;
+    background-color: blue;
+}
+#game td {
+    width: 2cm;
+    height: 2cm;
+    margin: 0px;
+    padding: 0px;
+    border: 2px black inset;
+    border-radius: 2cm;
+    background-color: rgb(0,10,10);
+
+    cursor: pointer;
+}
+#game td.player1 {
+    background-color: grey;
+}
+#game td.player2 {
+    background-color: white;
+}
+body
+{	
+	background-color:rgb(0,0,64);
+}
+
+h1
+{
+text-shadow:2px 2px 4px blue;
+box-shadow: 6px 6px 6px black;
+font-size: xx-large;
+font-family:Impact,sans-serif;
+font-weight:bold;
+text-align: center;
+}
+div
+{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+
+	background-color:rgb(0,10,10); 
+}
+.button {
+        border: 1px transparent;
+
+        -webkit-border-radius: 40px;
+        border-radius: 40px;
+        color: #eeeeee;
+        cursor: pointer;
+        
+        font-family: Arial;
+        font-size: 20px;
+        padding: 8px 30px;
+        text-align: center;
+        text-decoration: none;
+        
+        -webkit-animation: glowing 1300ms infinite;
+        -moz-animation: glowing 1300ms infinite;
+        -o-animation: glowing 1300ms infinite;
+        animation: glowing 1300ms infinite;
+      }
+
+@-webkit-keyframes glowing {
+        0% {
+          background-color: #0091b2;
+          -webkit-box-shadow: 0 0 3px #0091b2;
+        }
+        50% {
+          background-color: #21c7ed;
+          -webkit-box-shadow: 0 0 15px #21c7ed;
+        }
+        100% {
+          background-color: #0091b2;
+          -webkit-box-shadow: 0 0 3px #0091b2;
+        }
+      }
+      @keyframes glowing {
+        0% {
+          background-color: #0091b2;
+          box-shadow: 0 0 3px #0091b2;
+        }
+        50% {
+          background-color: #21c7ed;
+          box-shadow: 0 0 15px #21c7ed;
+        }
+        100% {
+          background-color: #0091b2;
+          box-shadow: 0 0 3px #0091b2;
+        }
+      }
